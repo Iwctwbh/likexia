@@ -1,7 +1,3 @@
-# likexia.js
-likexia.js
-
-```javascript
 document
   .querySelectorAll('.res-table:not(.craftTable)')[0]
   .querySelectorAll('.res-row')
@@ -24,5 +20,3 @@ document
       res.value = res.maxValue === 0 ? res.value * 2 : res.maxValue;
     });
   });
-
-```
